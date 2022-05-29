@@ -1,0 +1,14 @@
+h5{
+    margin-bottom: 0px !important;
+    font-size: 14px !important;
+    color: #0A6EFD;
+    padding: 3px;
+}
+
+#guessStart, #guessEasy, #guessHard{
+    cursor: pointer;
+}
+
+.visible {
+    visibility: visible;
+}

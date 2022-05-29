@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Aid-tech | RGB Master</title>
+    <link rel="icon" type="image/x-icon" href="icon.png">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body class="bg-dark">
+    <div class="container-fluid">
+        <div class="row bg-primary py-3">
+            <div class="col-12 text-center text-white">
+                <h3 class="text-uppercase fw-light">guess the color</h3>
+                <h1 id="guessChecking" class="text-uppercase fw-light">rgb(176, 166, 162)</h1>
+            </div>
+        </div>
+        <div class="row bg-light mb-3">
+            <div class="col-6 offset-3">
+                <div class="row">
+                    <div class="col-3">
+                        <h5 class="text-uppercase fw-bold guess">new colors</h5>
+                    </div>
+                    <div class="offset-2 col-2">
+                        <h5 class="fw-normal text-center" id="guessResult"></h5>
+                    </div>
+                    <div class="offset-3 col-1">
+                        <h5 class="text-uppercase fw-bold text-center guess" data-line="1" id="guessEasy">easy</h5>
+                    </div>
+                    <div class="col-1">
+                        <h5 class="text-uppercase fw-bold text-center guess" data-line="2" id="guessHard">hard</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="guess">
+            <div class="row" id="guessContent"></div>
+        </div>
+    </div>
+    <script src="rgb.js"></script>
+</body>
+
+</html>
